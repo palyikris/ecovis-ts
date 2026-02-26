@@ -1,54 +1,79 @@
 import tkinter as tk
 import ttkbootstrap as tb
 from ttkbootstrap.constants import *
-from ecovis_ts.config import SETTINGS, save_settings
+from tkinter import filedialog, messagebox
+from ..config import SETTINGS, save_settings
 
 
 class SettingsFrame(tb.Frame):
     def __init__(self, parent, **kwargs):
-        super().__init__(parent, **kwargs)
-        self._setup_scrollable_area()
-        self._setup_sections()
+        super().__init__(parent, padding=30, **kwargs)
+        self._setup_ui()
 
-    def _setup_scrollable_area(self):
-        self.canvas = tb.Canvas(self)
-        self.canvas.pack(side=LEFT, fill=BOTH, expand=True)
-
-        self.scrollbar = tb.Scrollbar(self, orient=VERTICAL, command=self.canvas.yview)
-        self.scrollbar.pack(side=RIGHT, fill=Y)
-
-        self.canvas.configure(yscrollcommand=self.scrollbar.set)
-        self.scroll_content = tb.Frame(self.canvas, padding=30)
-
-        self.canvas.create_window((0, 0), window=self.scroll_content, anchor="nw")
-        self.scroll_content.bind(
-            "<Configure>",
-            lambda e: self.canvas.configure(scrollregion=self.canvas.bbox("all")),
+    def _setup_ui(self):
+        tb.Label(self, text="⚙️ Beállítások", font=("Segoe UI", 18, "bold")).pack(
+            anchor=W, pady=(0, 20)
         )
 
-    def _setup_sections(self):
-        # Paths Group
-        path_group = tb.Labelframe(self.scroll_content, text="📂 Mappák", padding=12)
-        path_group.pack(fill=X, pady=8)
+        # Path Settings
+        path_group = tb.Labelframe(self, text="Elérési utak", padding=15)
+        path_group.pack(fill=X, pady=10)
 
-        # Example Entry
-        tb.Label(path_group, text="TS mappa:").grid(
-            row=0, column=0, sticky=W, padx=4, pady=4
-        )
+        # TS Folder
+        row1 = tb.Frame(path_group)
+        row1.pack(fill=X, pady=5)
+        tb.Label(row1, text="Timesheet mappa:", width=20).pack(side=LEFT)
         self.ts_folder_var = tk.StringVar(value=SETTINGS.get("ts_folder", ""))
-        tb.Entry(path_group, textvariable=self.ts_folder_var, width=50).grid(
-            row=0, column=1, padx=4
+        tb.Entry(row1, textvariable=self.ts_folder_var).pack(
+            side=LEFT, fill=X, expand=True, padx=5
         )
-
-        # Save Button at bottom
         tb.Button(
-            self.scroll_content,
-            text="Beállítások mentése",
-            bootstyle=SUCCESS,
-            command=self.save,
-        ).pack(side=RIGHT, pady=20)
+            row1, text="Tallózás", command=self._browse_ts, bootstyle=SECONDARY
+        ).pack(side=LEFT)
 
-    def save(self):
+        # Output Folder
+        row2 = tb.Frame(path_group)
+        row2.pack(fill=X, pady=5)
+        tb.Label(row2, text="Kimeneti mappa:", width=20).pack(side=LEFT)
+        self.out_folder_var = tk.StringVar(value=SETTINGS.get("output_folder", ""))
+        tb.Entry(row2, textvariable=self.out_folder_var).pack(
+            side=LEFT, fill=X, expand=True, padx=5
+        )
+        tb.Button(
+            row2, text="Tallózás", command=self._browse_out, bootstyle=SECONDARY
+        ).pack(side=LEFT)
+
+        # Preferences
+        pref_group = tb.Labelframe(self, text="Preferenciák", padding=15)
+        pref_group.pack(fill=X, pady=10)
+
+        self.auto_open_var = tk.BooleanVar(
+            value=SETTINGS.get("auto_open_output_on_success", True)
+        )
+        tb.Checkbutton(
+            pref_group,
+            text="Fájlok automatikus megnyitása futás után",
+            variable=self.auto_open_var,
+        ).pack(anchor=W)
+
+        # Save Button
+        tb.Button(
+            self, text="Beállítások mentése", bootstyle=SUCCESS, command=self._save
+        ).pack(pady=20, side=RIGHT)
+
+    def _browse_ts(self):
+        path = filedialog.askdirectory()
+        if path:
+            self.ts_folder_var.set(path)
+
+    def _browse_out(self):
+        path = filedialog.askdirectory()
+        if path:
+            self.out_folder_var.set(path)
+
+    def _save(self):
         SETTINGS["ts_folder"] = self.ts_folder_var.get()
+        SETTINGS["output_folder"] = self.out_folder_var.get()
+        SETTINGS["auto_open_output_on_success"] = self.auto_open_var.get()
         save_settings(SETTINGS)
-        tk.messagebox.showinfo("Siker", "Beállítások elmentve!")
+        messagebox.showinfo("Siker", "A beállítások mentése megtörtént.")

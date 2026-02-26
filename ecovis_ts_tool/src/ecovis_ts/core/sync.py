@@ -1,19 +1,47 @@
+import xlwings as xw
+import pandas as pd
 import logging
-from ecovis_ts.utils.paths import ts_root, output_root
+from ..utils.paths import ts_root
+
 
 def sync_dropdown_lists():
-    """
-    Updates the 'Lists' sheet in all TS files with current client/project data.
-    Refactored from update_dropdowns.py.
-    """
     logger = logging.getLogger(__name__)
-    logger.info("Indítás: Legördülők frissítése minden TS fájlban.")
+    logger.info("▶ Legördülők frissítése minden TS fájlban...")
 
-    files = [p for p in ts_root().glob("*.xlsx") if "TS" in p.name]
+    ts_dir = ts_root()
+    master_path = ts_dir / "Ecovis Compliance Solution számlázási adatok_2025.xlsx"
 
-    for f in files:
-        logger.info(f"Frissítés: {f.name}")
-        # ... logic to write new codes into the hidden list sheet ...
+    try:
+        # Load master data
+        master_df = pd.read_excel(master_path, sheet_name="TS kódok")
+        u_list = master_df["Ügyfélkód"].unique().tolist()
+        p_list = master_df["TS kód"].unique().tolist()
 
-    logger.info("✅ Legördülő elemek frissítése sikeres.")
-    return True
+        app = xw.App(visible=False, add_book=False)
+        for ts_file in ts_dir.glob("*.xlsx"):
+            if "TS" not in ts_file.name or ts_file.name.startswith("~$"):
+                continue
+            if ts_file.name == master_path.name:
+                continue
+
+            logger.info(f"  - Frissítés: {ts_file.name}")
+            wb = app.books.open(ts_file)
+
+            # Update the hidden Lists sheet or static columns
+            # Assuming logic from original update_dropdowns.py
+            sheet = wb.sheets[0]
+            sheet.range("Y2:Y500").clear_contents()
+            sheet.range("Z2:Z500").clear_contents()
+
+            sheet.range("Y2").options(transpose=True).value = u_list
+            sheet.range("Z2").options(transpose=True).value = p_list
+
+            wb.save()
+            wb.close()
+
+        app.quit()
+        logger.info("✅ Minden legördülő lista frissítve.")
+        return True
+    except Exception as e:
+        logger.error(f"Hiba a frissítés során: {e}")
+        return False

@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Optional
 
 # Note: SETTINGS will eventually be moved to src/ecovis_ts/config.py
-from ecovis_ts.config import SETTINGS
+from ..config import SETTINGS
 
 
 def ts_root() -> Path:

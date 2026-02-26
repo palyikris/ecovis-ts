@@ -1,61 +1,79 @@
-import tkinter as tk
+import threading
+import logging
+import queue
 import ttkbootstrap as tb
 from ttkbootstrap.constants import *
-from .widgets import DashboardCard
-from ecovis_ts.config import MONTHS
 
-class DashboardFrame(tb.Frame):
-    def __init__(self, parent, run_command_callback, **kwargs):
-        super().__init__(parent, padding=20, **kwargs)
-        self.run_command = run_command_callback
-        self._setup_ui()
+from ..config import SETTINGS
+from ..utils.logging import UIHandler
+from ..core import (
+    aggregate_timesheets,
+    sync_dropdown_lists,
+    validate_client_project_pairs,
+)
+from .dashboard import DashboardFrame
+from .settings import SettingsFrame
 
-    def _setup_ui(self):
-        # Header and Cards (as defined previously)
-        self.cards_frame = tb.Frame(self)
-        self.cards_frame.pack(fill=X, pady=10)
-        # ... (Card setup from previous turn) ...
 
-        # Action Buttons Row
-        btns_frame = tb.Frame(self)
-        btns_frame.pack(fill=X, pady=20)
+class EcovisApp(tb.Window):
+    def __init__(self):
+        theme = SETTINGS.get("theme", "minty")
+        super().__init__(title="Ecovis Timesheet Tool", themename=theme)
+        self.state("zoomed")
 
-        self.month_var = tk.StringVar(value="januar")
-        month_menu = tb.Combobox(
-            btns_frame, textvariable=self.month_var, values=MONTHS, width=15
-        )
-        month_menu.pack(side=LEFT, padx=5)
+        # Logging Setup
+        self.log_queue = queue.Queue()
+        self._init_logging()
 
-        tb.Button(
-            btns_frame,
-            text="🔄 Frissítés",
-            bootstyle=INFO,
-            command=lambda: self.run_command("sync"),
-        ).pack(side=LEFT, padx=5)
+        # UI Components
+        self.notebook = tb.Notebook(self, bootstyle=PRIMARY)
+        self.notebook.pack(fill=BOTH, expand=True)
 
-        tb.Button(
-            btns_frame,
-            text="📊 Összesítés",
-            bootstyle=PRIMARY,
-            command=lambda: self.run_command("aggregate", self.month_var.get()),
-        ).pack(side=LEFT, padx=5)
+        self.dashboard = DashboardFrame(self.notebook, self.execute_task)
+        self.settings = SettingsFrame(self.notebook)
 
-        # Log Panel
-        log_group = tb.Labelframe(self, text="Eseménynapló", padding=10)
-        log_group.pack(fill=BOTH, expand=True)
+        self.notebook.add(self.dashboard, text="📊 Vezérlőpult")
+        self.notebook.add(self.settings, text="⚙️ Beállítások")
 
-        self.log_tree = tb.Treeview(
-            log_group, columns=("msg"), show="headings", height=10
-        )
-        self.log_tree.heading("msg", text="Üzenet")
-        self.log_tree.column("msg", width=800)
-        self.log_tree.pack(fill=BOTH, expand=True)
+        # Start the log pump
+        self.after(100, self._pump_logs)
 
-        # Tags for coloring logs
-        self.log_tree.tag_configure("info", foreground="#084298")
-        self.log_tree.tag_configure("warn", foreground="#664d03")
-        self.log_tree.tag_configure("err", foreground="#842029")
+    def _init_logging(self):
+        """Redirects root logging to our UI handler."""
+        handler = UIHandler(self.log_queue)
+        logging.getLogger().addHandler(handler)
+        logging.getLogger().setLevel(logging.INFO)
 
-    def add_log(self, level: str, message: str):
-        self.log_tree.insert("", "end", values=(message,), tags=(level,))
-        self.log_tree.see(self.log_tree.get_children()[-1])
+    def execute_task(self, task_type: str, *args):
+        """Standard runner that executes core logic in a background thread."""
+
+        def worker():
+            try:
+                if task_type == "aggregate":
+                    aggregate_timesheets(*args)
+                elif task_type == "sync":
+                    sync_dropdown_lists()
+                elif task_type == "validate":
+                    validate_client_project_pairs(*args)
+
+                # Update UI stats on completion
+                self.after(0, self.dashboard.update)
+            except Exception as e:
+                logging.error(f"Váratlan hiba: {str(e)}")
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def _pump_logs(self):
+        """Checks the queue for new logs to display in the Dashboard Treeview."""
+        try:
+            while True:
+                level, msg = self.log_queue.get_nowait()
+                self.dashboard.add_log(level, msg)
+        except queue.Empty:
+            pass
+        self.after(100, self._pump_logs)
+
+
+def main():
+    app = EcovisApp()
+    app.mainloop()

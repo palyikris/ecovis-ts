@@ -23,9 +23,11 @@ class DashboardCard(tb.Labelframe):
         )
         self.sub_label.pack(fill=X, pady=(6, 0))
 
-    def update_card(self, value, subtitle):
+    def update_stats(self, value: str, subtitle: str):
+        """Updates the labels on the card."""
         self.value_label.config(text=value)
         self.sub_label.config(text=subtitle)
 
-    def set_wrap(self, width):
+    def set_wrap(self, width: int):
+        """Adjusts text wrapping based on container size."""
         self.sub_label.configure(wraplength=width)
