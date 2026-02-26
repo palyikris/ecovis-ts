@@ -1,0 +1,5 @@
+2025-08-24 13:50:19,456 [INFO] ▶ GUI main started
+2025-08-24 13:50:19,457 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\gui_main_20250824_135019.log
+2025-08-24 13:50:20,099 [INFO] 🟢 mainloop indul
+2025-08-24 13:50:23,849 [INFO] Subprocess start: ['C:\\Users\\palyi\\OneDrive\\Desktop\\bullshitBundle\\fater_szarja\\venv\\Scripts\\python.exe', 'update_dropdowns.py']
+2025-08-24 13:50:44,657 [INFO] Subprocess finished rc=0

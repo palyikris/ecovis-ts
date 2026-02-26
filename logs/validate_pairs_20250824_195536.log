@@ -1,0 +1,16 @@
+2025-08-24 19:55:36,311 [INFO] validate_pairs started
+2025-08-24 19:55:36,312 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\validate_pairs_20250824_195536.log
+2025-08-24 19:55:36,313 [INFO] Hónap paraméterből: januar
+2025-08-24 19:55:36,313 [INFO] TS kódok beolvasása: Ecovis Compliance Solution számlázási adatok_2025.xlsx / TS kódok
+2025-08-24 19:55:36,356 [INFO] Engedélyezett párok betöltve: 49 ügyfélkód, összesen ~233 sor
+2025-08-24 19:55:36,356 [INFO] Feldolgozás: TS GP.xlsx
+2025-08-24 19:55:36,373 [INFO]   Sheet: januar
+2025-08-24 19:55:36,381 [INFO] Hibás sorok a fájlban: 128
+2025-08-24 19:55:36,455 [INFO] Kész a formázott hibalista: invalid_parok_januar_20250824_1955.xlsx
+2025-08-24 19:55:36,456 [INFO] Run summary:
+2025-08-24 19:55:36,456 [INFO]    1 files processed
+2025-08-24 19:55:36,456 [INFO]    0 files skipped
+2025-08-24 19:55:36,456 [INFO]    0 errors
+2025-08-24 19:55:36,456 [INFO]    Hibás sorok összesen: 128
+2025-08-24 19:55:36,456 [INFO]    Duration: 0.1s
+2025-08-24 19:55:36,456 [INFO] validate_pairs finished

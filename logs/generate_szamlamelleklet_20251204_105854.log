@@ -1,0 +1,13 @@
+2025-12-04 10:58:54,370 [INFO] generate_szamlamelleklet started
+2025-12-04 10:58:54,371 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\generate_szamlamelleklet_20251204_105854.log
+2025-12-04 10:58:54,371 [INFO] Hónap: november
+2025-12-04 10:58:54,417 [INFO] Próbálom betölteni a timesheet összesítést: timesheet_summary_december_20251204_1058.xlsx
+2025-12-04 10:58:54,423 [WARNING] Nem található a szükséges oszlop a summary fájlban: timesheet_summary_december_20251204_1058.xlsx
+2025-12-04 10:58:54,423 [INFO] Próbálom betölteni a timesheet összesítést: timesheet_summary_november_20251204_0956.xlsx
+2025-12-04 10:58:54,435 [WARNING] Nem található a szükséges oszlop a summary fájlban: timesheet_summary_november_20251204_0956.xlsx
+2025-12-04 10:58:54,435 [INFO] Próbálom betölteni a timesheet összesítést: timesheet_summary_december_20251204_0954.xlsx
+2025-12-04 10:58:54,442 [WARNING] Nem található a szükséges oszlop a summary fájlban: timesheet_summary_december_20251204_0954.xlsx
+2025-12-04 10:58:54,442 [INFO] Feldolgozás: TS BK.xlsx
+2025-12-04 10:58:54,460 [INFO] Feldolgozás: TS GP.xlsx
+2025-12-04 10:58:54,480 [INFO] Output file exists, writing to new file: szamlamelleklet_november_20251204_105854.xlsx
+2025-12-04 10:58:54,529 [INFO] Kész: szamlamelleklet_november_20251204_105854.xlsx

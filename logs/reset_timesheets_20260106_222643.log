@@ -1,0 +1,15 @@
+2026-01-06 22:26:43,166 [INFO] ▶ reset_timesheets started
+2026-01-06 22:26:43,166 [INFO] Folder: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja
+2026-01-06 22:26:43,167 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\reset_timesheets_20260106_222643.log
+2026-01-06 22:26:43,167 [INFO] Archive dir: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\archived_ts_20260106_222643
+2026-01-06 22:26:43,169 [INFO] 🔧 Feldolgozás: TS BK.xlsx
+2026-01-06 22:26:43,170 [INFO]    ✔ Áthelyezve: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\archived_ts_20260106_222643\TS BK.xlsx
+2026-01-06 22:26:43,737 [INFO]    ✔ Új üres fájl létrehozva: TS BK.xlsx
+2026-01-06 22:26:43,738 [INFO] 🔧 Feldolgozás: TS GP.xlsx
+2026-01-06 22:26:43,739 [INFO]    ✔ Áthelyezve: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\archived_ts_20260106_222643\TS GP.xlsx
+2026-01-06 22:26:44,327 [INFO]    ✔ Új üres fájl létrehozva: TS GP.xlsx
+2026-01-06 22:26:44,328 [INFO] 📊 Összegzés:
+2026-01-06 22:26:44,328 [INFO]    ➜ Áthelyezett fájlok: 2
+2026-01-06 22:26:44,328 [INFO]    ➜ Létrehozott üres fájlok: 2
+2026-01-06 22:26:44,328 [INFO]    ➜ Hibák: 0
+2026-01-06 22:26:44,328 [INFO] ✅ reset_timesheets finished

@@ -1,0 +1,12 @@
+2025-09-11 13:35:55,611 [INFO] ▶ reset_timesheets started
+2025-09-11 13:35:55,612 [INFO] Folder: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja
+2025-09-11 13:35:55,612 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\reset_timesheets_20250911_133555.log
+2025-09-11 13:35:55,613 [INFO] Archive dir: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\archived_ts_20250911_133555
+2025-09-11 13:35:55,614 [INFO] 🔧 Feldolgozás: TS GP.xlsx
+2025-09-11 13:35:55,615 [INFO]    ↪ DRY-RUN: move -> TS GP.xlsx
+2025-09-11 13:35:55,615 [INFO]    ↪ DRY-RUN: recreate blank -> TS GP.xlsx
+2025-09-11 13:35:55,615 [INFO] 📊 Összegzés:
+2025-09-11 13:35:55,615 [INFO]    ➜ Áthelyezett fájlok: 1
+2025-09-11 13:35:55,615 [INFO]    ➜ Létrehozott üres fájlok: 1
+2025-09-11 13:35:55,615 [INFO]    ➜ Hibák: 0
+2025-09-11 13:35:55,615 [INFO] ✅ reset_timesheets finished

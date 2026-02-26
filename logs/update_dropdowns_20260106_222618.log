@@ -1,0 +1,16 @@
+2026-01-06 22:26:18,376 [INFO] ▶ update_dropdowns started
+2026-01-06 22:26:18,377 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\update_dropdowns_20260106_222618.log
+2026-01-06 22:26:18,377 [INFO] Csak ezek a hónapok frissülnek: december
+2026-01-06 22:26:18,571 [INFO] Loaded TS kódok: 48 ügyfélkód, 12 projekt
+2026-01-06 22:26:19,114 [INFO] 🔧 Feldolgozás: TS BK.xlsx
+2026-01-06 22:26:19,457 [INFO]   ➔ Sheet: december
+2026-01-06 22:26:21,708 [INFO] ✅ Kész: TS BK.xlsx
+2026-01-06 22:26:21,708 [INFO] 🔧 Feldolgozás: TS GP.xlsx
+2026-01-06 22:26:21,901 [INFO]   ➔ Sheet: december
+2026-01-06 22:26:24,211 [INFO] ✅ Kész: TS GP.xlsx
+2026-01-06 22:26:24,380 [INFO] 📊 Run summary:
+2026-01-06 22:26:24,380 [INFO]    ✔ 2 files processed
+2026-01-06 22:26:24,380 [INFO]    ⚠ 0 skipped
+2026-01-06 22:26:24,380 [INFO]    ❌ 0 errors
+2026-01-06 22:26:24,380 [INFO]    ⏱ Duration: 5.8s
+2026-01-06 22:26:24,380 [INFO] ✅ update_dropdowns finished

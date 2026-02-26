@@ -1,0 +1,6 @@
+2025-11-04 11:05:10,534 [INFO] ▶ timesheet_summary started
+2025-11-04 11:05:10,534 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\timesheet_summary_20251104_110510.log
+2025-11-04 11:05:10,534 [INFO] Hónap szűrő: november
+2025-11-04 11:05:10,535 [INFO] 🔧 Feldolgozás: TS GP.xlsx
+2025-11-04 11:05:10,567 [INFO]   ➔ Sheet: november
+2025-11-04 11:05:10,573 [WARNING]     ➔ Hiányzó oszlop(ok): ['Ügyfélkód', 'Projekt neve'], kihagyva

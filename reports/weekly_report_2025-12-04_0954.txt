@@ -1,0 +1,7 @@
+Ecovis heti riport — 2025-12-04 09:54
+Hónap: december
+
+Összesítés: timesheet_summary_december_20251204_0954.xlsx
+Párellenőrzés: invalid_parok_november_20251106_1435.xlsx
+
+Megjegyzés: A heti riport nem tartalmaz számlamellékletet.

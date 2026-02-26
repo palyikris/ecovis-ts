@@ -1,0 +1,17 @@
+2025-08-24 14:32:42,235 [INFO] update_dropdowns started
+2025-08-24 14:32:42,237 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\update_dropdowns_20250824_143242.log
+2025-08-24 14:32:42,237 [INFO] Csak ezek a hónapok frissülnek: augusztus, szeptember, oktober, november, december
+2025-08-24 14:32:42,416 [INFO] Loaded TS kódok: 49 ügyfélkód, 28 projekt
+2025-08-24 14:32:42,416 [INFO] Feldolgozás: TS GP.xlsx
+2025-08-24 14:32:44,619 [INFO] Sheet: augusztus
+2025-08-24 14:32:47,633 [INFO] Sheet: szeptember
+2025-08-24 14:32:49,887 [INFO] Sheet: oktober
+2025-08-24 14:32:52,142 [INFO] Sheet: november
+2025-08-24 14:32:54,363 [INFO] Sheet: december
+2025-08-24 14:32:56,846 [INFO] Kész: TS GP.xlsx
+2025-08-24 14:32:56,846 [INFO] Run summary:
+2025-08-24 14:32:56,846 [INFO]    1 files processed
+2025-08-24 14:32:56,846 [INFO]    0 skipped
+2025-08-24 14:32:56,847 [INFO]    0 errors
+2025-08-24 14:32:56,847 [INFO]    Duration: 14.4s
+2025-08-24 14:32:56,847 [INFO] update_dropdowns finished

@@ -1,0 +1,76 @@
+2025-09-04 01:49:37,905 [INFO] validate_pairs started
+2025-09-04 01:49:37,905 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\validate_pairs_20250904_014937.log
+2025-09-04 01:49:37,905 [INFO] Hónap paraméterből: szeptember
+2025-09-04 01:49:37,906 [INFO] TS kódok beolvasása: Ecovis Compliance Solution számlázási adatok_2025.xlsx / TS kódok
+2025-09-04 01:49:37,937 [INFO] Engedélyezett párok betöltve: 49 ügyfélkód, összesen ~233 sor
+2025-09-04 01:49:37,938 [INFO] Feldolgozás: TS GP.xlsx
+2025-09-04 01:49:37,955 [INFO]   Sheet: szeptember
+2025-09-04 01:49:37,957 [ERROR] Sheet olvasási hiba (TS GP.xlsx/szeptember): Usecols do not match columns, columns expected but not found: ['Projekt neve', 'Ügyfélkód'] (sheet: szeptember)
+Traceback (most recent call last):
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 607, in _handle_usecols
+    col_indices.append(usecols_key.index(col))
+                       ~~~~~~~~~~~~~~~~~^^^^^
+ValueError: 'Projekt neve' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\validate_pairs.py", line 133, in validate_file
+    df = pd.read_excel(
+        xls, sheet_name=target_sheet, usecols=usecols, nrows=MAX_ROWS, dtype=str
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 508, in read_excel
+    data = io.parse(
+        sheet_name=sheet_name,
+    ...<21 lines>...
+        dtype_backend=dtype_backend,
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1616, in parse
+    return self._reader.parse(
+           ~~~~~~~~~~~~~~~~~~^
+        sheet_name=sheet_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<17 lines>...
+        **kwds,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 916, in parse
+    raise err
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 878, in parse
+    parser = TextParser(
+        data,
+    ...<20 lines>...
+        **kwds,
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 2053, in TextParser
+    return TextFileReader(*args, **kwds)
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 133, in __init__
+    ) = self._infer_columns()
+        ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 542, in _infer_columns
+    columns = self._handle_usecols(
+        columns, columns[0], num_original_columns
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 609, in _handle_usecols
+    self._validate_usecols_names(self.usecols, usecols_key)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\base_parser.py", line 988, in _validate_usecols_names
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Usecols do not match columns, columns expected but not found: ['Projekt neve', 'Ügyfélkód'] (sheet: szeptember)
+2025-09-04 01:49:38,019 [INFO] Kész a formázott hibalista: invalid_parok_szeptember_20250904_0149.xlsx
+2025-09-04 01:49:38,019 [INFO] Run summary:
+2025-09-04 01:49:38,019 [INFO]    1 files processed
+2025-09-04 01:49:38,019 [INFO]    0 files skipped
+2025-09-04 01:49:38,019 [INFO]    0 errors
+2025-09-04 01:49:38,019 [INFO]    Hibás sorok összesen: 1
+2025-09-04 01:49:38,019 [INFO]    Duration: 0.1s
+2025-09-04 01:49:38,019 [INFO] validate_pairs finished

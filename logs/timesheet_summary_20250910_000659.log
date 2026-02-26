@@ -1,0 +1,6 @@
+2025-09-10 00:06:59,715 [INFO] ▶ timesheet_summary started
+2025-09-10 00:06:59,717 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\timesheet_summary_20250910_000659.log
+2025-09-10 00:06:59,717 [INFO] Hónap szűrő: oktober
+2025-09-10 00:06:59,717 [INFO] 🔧 Feldolgozás: TS GP.xlsx
+2025-09-10 00:06:59,737 [INFO]   ➔ Sheet: oktober
+2025-09-10 00:06:59,741 [WARNING]     ➔ Hiányzó oszlop(ok): ['Ügyfélkód', 'Projekt neve'], kihagyva

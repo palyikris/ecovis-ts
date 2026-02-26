@@ -1,0 +1,14 @@
+2025-09-04 10:23:19,340 [INFO] ▶ timesheet_summary started
+2025-09-04 10:23:19,341 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\timesheet_summary_20250904_102319.log
+2025-09-04 10:23:19,341 [INFO] Hónap szűrő: januar
+2025-09-04 10:23:19,341 [INFO] 🔧 Feldolgozás: TS GP.xlsx
+2025-09-04 10:23:19,362 [INFO]   ➔ Sheet: januar
+2025-09-04 10:23:19,474 [INFO] ✅ Összesítés elkészült, elmentve ide: timesheet_summary_januar_20250904_1023.xlsx
+2025-09-04 10:23:19,474 [INFO] 📊 Run summary:
+2025-09-04 10:23:19,474 [INFO]    ✔ 1 files processed
+2025-09-04 10:23:19,477 [INFO]    ⚠ 0 files skipped (no target month)
+2025-09-04 10:23:19,477 [INFO]    📄 1 sheets processed
+2025-09-04 10:23:19,477 [INFO]    💤 13 sheets skipped
+2025-09-04 10:23:19,477 [INFO]    ❌ 0 errors
+2025-09-04 10:23:19,477 [INFO]    ⏱ Duration: 0.1s
+2025-09-04 10:23:19,477 [INFO] ✅ timesheet_summary finished

@@ -1,0 +1,179 @@
+2025-08-24 13:42:13,312 [INFO] ▶ GUI main started
+2025-08-24 13:42:13,314 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\gui_main_20250824_134213.log
+2025-08-24 13:42:14,094 [INFO] 🟢 mainloop indul
+2025-08-24 13:42:22,311 [INFO] [dropdown] Parancs: ['C:\\Users\\palyi\\OneDrive\\Desktop\\bullshitBundle\\fater_szarja\\venv\\Scripts\\python.exe', 'update_dropdowns.py']
+2025-08-24 13:42:23,231 [INFO] [dropdown] 2025-08-24 13:42:23,231 [INFO] \u25b6 update_dropdowns started
+2025-08-24 13:42:23,232 [INFO] [dropdown] 2025-08-24 13:42:23,232 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\update_dropdowns_20250824_134223.log
+2025-08-24 13:42:23,233 [INFO] [dropdown] 2025-08-24 13:42:23,232 [INFO] Csak ezek a hónapok frissülnek: augusztus, szeptember, oktober, november, december
+2025-08-24 13:42:23,470 [INFO] [dropdown] 2025-08-24 13:42:23,470 [INFO] Loaded TS kódok: 49 ügyfélkód, 28 projekt
+2025-08-24 13:42:23,471 [INFO] [dropdown] 2025-08-24 13:42:23,470 [INFO] Feldolgozás: TS GP.xlsx
+2025-08-24 13:42:27,524 [INFO] [dropdown] 2025-08-24 13:42:27,524 [INFO] Sheet: augusztus
+2025-08-24 13:42:31,507 [INFO] [dropdown] 2025-08-24 13:42:31,506 [INFO] Sheet: szeptember
+2025-08-24 13:42:34,086 [INFO] [dropdown] 2025-08-24 13:42:34,086 [INFO] Sheet: oktober
+2025-08-24 13:42:36,483 [INFO] [dropdown] 2025-08-24 13:42:36,483 [INFO] Sheet: november
+2025-08-24 13:42:38,859 [INFO] [dropdown] 2025-08-24 13:42:38,859 [INFO] Sheet: december
+2025-08-24 13:42:41,392 [INFO] [dropdown] 2025-08-24 13:42:41,391 [INFO] Kész: TS GP.xlsx
+2025-08-24 13:42:41,395 [INFO] [dropdown] 2025-08-24 13:42:41,392 [INFO] Run summary:
+2025-08-24 13:42:41,399 [INFO] [dropdown] 2025-08-24 13:42:41,392 [INFO]    1 files processed
+2025-08-24 13:42:41,404 [INFO] [dropdown] 2025-08-24 13:42:41,392 [INFO]    0 skipped
+2025-08-24 13:42:41,407 [INFO] [dropdown] 2025-08-24 13:42:41,392 [INFO]    0 errors
+2025-08-24 13:42:41,408 [INFO] [dropdown] 2025-08-24 13:42:41,392 [INFO]    Duration: 17.9s
+2025-08-24 13:42:41,411 [INFO] [dropdown] 2025-08-24 13:42:41,392 [INFO] update_dropdowns finished
+2025-08-24 13:42:54,605 [INFO] [summary] Parancs: ['C:\\Users\\palyi\\OneDrive\\Desktop\\bullshitBundle\\fater_szarja\\venv\\Scripts\\python.exe', 'timesheet_summary.py', 'januar']
+2025-08-24 13:42:55,451 [INFO] [summary] 2025-08-24 13:42:55,450 [INFO] \u25b6 timesheet_summary started
+2025-08-24 13:42:55,452 [INFO] [summary] 2025-08-24 13:42:55,452 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\timesheet_summary_januar_20250824_134255.log
+2025-08-24 13:42:55,453 [INFO] [summary] 2025-08-24 13:42:55,452 [INFO] \U0001f527 Feldolgozás: TS GP.xlsx
+2025-08-24 13:42:55,801 [INFO] [summary] 2025-08-24 13:42:55,800 [INFO]   \u2794 Sheet: januar
+2025-08-24 13:42:55,810 [INFO] [summary] 2025-08-24 13:42:55,809 [INFO]     \u2794 Hiányzó adat a januar sheet 8. sorában, kihagyva
+2025-08-24 13:42:55,810 [INFO] [summary] 2025-08-24 13:42:55,809 [INFO]     \u2794 Hiányzó adat a januar sheet 9. sorában, kihagyva
+2025-08-24 13:42:55,813 [INFO] [summary] 2025-08-24 13:42:55,810 [INFO]     \u2794 Hiányzó adat a januar sheet 10. sorában, kihagyva
+2025-08-24 13:42:55,821 [INFO] [summary] 2025-08-24 13:42:55,813 [INFO]     \u2794 Hiányzó adat a januar sheet 11. sorában, kihagyva
+2025-08-24 13:42:55,822 [INFO] [summary] 2025-08-24 13:42:55,813 [INFO]     \u2794 Hiányzó adat a januar sheet 12. sorában, kihagyva
+2025-08-24 13:42:55,822 [INFO] [summary] 2025-08-24 13:42:55,813 [INFO]     \u2794 Hiányzó adat a januar sheet 13. sorában, kihagyva
+2025-08-24 13:42:55,822 [INFO] [summary] 2025-08-24 13:42:55,813 [INFO]     \u2794 Hiányzó adat a januar sheet 14. sorában, kihagyva
+2025-08-24 13:42:55,823 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 15. sorában, kihagyva
+2025-08-24 13:42:55,823 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 16. sorában, kihagyva
+2025-08-24 13:42:55,823 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 17. sorában, kihagyva
+2025-08-24 13:42:55,823 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 18. sorában, kihagyva
+2025-08-24 13:42:55,824 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 19. sorában, kihagyva
+2025-08-24 13:42:55,824 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 20. sorában, kihagyva
+2025-08-24 13:42:55,824 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 21. sorában, kihagyva
+2025-08-24 13:42:55,824 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 22. sorában, kihagyva
+2025-08-24 13:42:55,824 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 23. sorában, kihagyva
+2025-08-24 13:42:55,824 [INFO] [summary] 2025-08-24 13:42:55,814 [INFO]     \u2794 Hiányzó adat a januar sheet 24. sorában, kihagyva
+2025-08-24 13:42:55,824 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 25. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 26. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 27. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 28. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 29. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 30. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 31. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 32. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,815 [INFO]     \u2794 Hiányzó adat a januar sheet 33. sorában, kihagyva
+2025-08-24 13:42:55,825 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 34. sorában, kihagyva
+2025-08-24 13:42:55,826 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 35. sorában, kihagyva
+2025-08-24 13:42:55,829 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 36. sorában, kihagyva
+2025-08-24 13:42:55,829 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 37. sorában, kihagyva
+2025-08-24 13:42:55,830 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 38. sorában, kihagyva
+2025-08-24 13:42:55,830 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 39. sorában, kihagyva
+2025-08-24 13:42:55,831 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 40. sorában, kihagyva
+2025-08-24 13:42:55,832 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 41. sorában, kihagyva
+2025-08-24 13:42:55,833 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 42. sorában, kihagyva
+2025-08-24 13:42:55,835 [INFO] [summary] 2025-08-24 13:42:55,816 [INFO]     \u2794 Hiányzó adat a januar sheet 43. sorában, kihagyva
+2025-08-24 13:42:55,837 [INFO] [summary] 2025-08-24 13:42:55,817 [INFO]     \u2794 Hiányzó adat a januar sheet 44. sorában, kihagyva
+2025-08-24 13:42:55,838 [INFO] [summary] 2025-08-24 13:42:55,817 [INFO]     \u2794 Hiányzó adat a januar sheet 45. sorában, kihagyva
+2025-08-24 13:42:55,839 [INFO] [summary] 2025-08-24 13:42:55,817 [INFO]     \u2794 Hiányzó adat a januar sheet 46. sorában, kihagyva
+2025-08-24 13:42:55,839 [INFO] [summary] 2025-08-24 13:42:55,817 [INFO]     \u2794 Hiányzó adat a januar sheet 47. sorában, kihagyva
+2025-08-24 13:42:55,839 [INFO] [summary] 2025-08-24 13:42:55,817 [INFO]     \u2794 Hiányzó adat a januar sheet 48. sorában, kihagyva
+2025-08-24 13:42:55,840 [INFO] [summary] 2025-08-24 13:42:55,818 [INFO]     \u2794 Hiányzó adat a januar sheet 49. sorában, kihagyva
+2025-08-24 13:42:55,840 [INFO] [summary] 2025-08-24 13:42:55,818 [INFO]     \u2794 Hiányzó adat a januar sheet 50. sorában, kihagyva
+2025-08-24 13:42:55,840 [INFO] [summary] 2025-08-24 13:42:55,818 [INFO]     \u2794 Hiányzó adat a januar sheet 51. sorában, kihagyva
+2025-08-24 13:42:55,840 [INFO] [summary] 2025-08-24 13:42:55,818 [INFO]     \u2794 Hiányzó adat a januar sheet 52. sorában, kihagyva
+2025-08-24 13:42:55,840 [INFO] [summary] 2025-08-24 13:42:55,818 [INFO]     \u2794 Hiányzó adat a januar sheet 53. sorában, kihagyva
+2025-08-24 13:42:55,840 [INFO] [summary] 2025-08-24 13:42:55,818 [INFO]     \u2794 Hiányzó adat a januar sheet 54. sorában, kihagyva
+2025-08-24 13:42:55,840 [INFO] [summary] 2025-08-24 13:42:55,818 [INFO]     \u2794 Hiányzó adat a januar sheet 55. sorában, kihagyva
+2025-08-24 13:42:55,841 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 56. sorában, kihagyva
+2025-08-24 13:42:55,841 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 57. sorában, kihagyva
+2025-08-24 13:42:55,841 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 58. sorában, kihagyva
+2025-08-24 13:42:55,842 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 59. sorában, kihagyva
+2025-08-24 13:42:55,842 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 60. sorában, kihagyva
+2025-08-24 13:42:55,842 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 61. sorában, kihagyva
+2025-08-24 13:42:55,842 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 62. sorában, kihagyva
+2025-08-24 13:42:55,842 [INFO] [summary] 2025-08-24 13:42:55,821 [INFO]     \u2794 Hiányzó adat a januar sheet 63. sorában, kihagyva
+2025-08-24 13:42:55,842 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 64. sorában, kihagyva
+2025-08-24 13:42:55,843 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 65. sorában, kihagyva
+2025-08-24 13:42:55,843 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 66. sorában, kihagyva
+2025-08-24 13:42:55,843 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 67. sorában, kihagyva
+2025-08-24 13:42:55,845 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 68. sorában, kihagyva
+2025-08-24 13:42:55,846 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 69. sorában, kihagyva
+2025-08-24 13:42:55,852 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 70. sorában, kihagyva
+2025-08-24 13:42:55,855 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 71. sorában, kihagyva
+2025-08-24 13:42:55,856 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 72. sorában, kihagyva
+2025-08-24 13:42:55,856 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 73. sorában, kihagyva
+2025-08-24 13:42:55,857 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 74. sorában, kihagyva
+2025-08-24 13:42:55,858 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 75. sorában, kihagyva
+2025-08-24 13:42:55,859 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 76. sorában, kihagyva
+2025-08-24 13:42:55,861 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 77. sorában, kihagyva
+2025-08-24 13:42:55,866 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 78. sorában, kihagyva
+2025-08-24 13:42:55,869 [INFO] [summary] 2025-08-24 13:42:55,822 [INFO]     \u2794 Hiányzó adat a januar sheet 79. sorában, kihagyva
+2025-08-24 13:42:55,872 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 80. sorában, kihagyva
+2025-08-24 13:42:55,873 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 81. sorában, kihagyva
+2025-08-24 13:42:55,874 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 82. sorában, kihagyva
+2025-08-24 13:42:55,875 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 83. sorában, kihagyva
+2025-08-24 13:42:55,875 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 84. sorában, kihagyva
+2025-08-24 13:42:55,875 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 85. sorában, kihagyva
+2025-08-24 13:42:55,876 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 86. sorában, kihagyva
+2025-08-24 13:42:55,876 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 87. sorában, kihagyva
+2025-08-24 13:42:55,876 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 88. sorában, kihagyva
+2025-08-24 13:42:55,876 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 89. sorában, kihagyva
+2025-08-24 13:42:55,876 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 90. sorában, kihagyva
+2025-08-24 13:42:55,877 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 91. sorában, kihagyva
+2025-08-24 13:42:55,877 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 92. sorában, kihagyva
+2025-08-24 13:42:55,878 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 93. sorában, kihagyva
+2025-08-24 13:42:55,878 [INFO] [summary] 2025-08-24 13:42:55,823 [INFO]     \u2794 Hiányzó adat a januar sheet 94. sorában, kihagyva
+2025-08-24 13:42:55,878 [INFO] [summary] 2025-08-24 13:42:55,824 [INFO]     \u2794 Hiányzó adat a januar sheet 95. sorában, kihagyva
+2025-08-24 13:42:55,878 [INFO] [summary] 2025-08-24 13:42:55,824 [INFO]     \u2794 Hiányzó adat a januar sheet 96. sorában, kihagyva
+2025-08-24 13:42:55,878 [INFO] [summary] 2025-08-24 13:42:55,824 [INFO]     \u2794 Hiányzó adat a januar sheet 97. sorában, kihagyva
+2025-08-24 13:42:55,878 [INFO] [summary] 2025-08-24 13:42:55,824 [INFO]     \u2794 Hiányzó adat a januar sheet 98. sorában, kihagyva
+2025-08-24 13:42:55,878 [INFO] [summary] 2025-08-24 13:42:55,824 [INFO]     \u2794 Hiányzó adat a januar sheet 99. sorában, kihagyva
+2025-08-24 13:42:55,879 [INFO] [summary] 2025-08-24 13:42:55,824 [INFO]     \u2794 Hiányzó adat a januar sheet 100. sorában, kihagyva
+2025-08-24 13:42:55,879 [INFO] [summary] 2025-08-24 13:42:55,841 [INFO]     \u2794 Hiányzó adat a januar sheet 101. sorában, kihagyva
+2025-08-24 13:42:55,879 [INFO] [summary] 2025-08-24 13:42:55,841 [INFO]     \u2794 Hiányzó adat a januar sheet 102. sorában, kihagyva
+2025-08-24 13:42:55,879 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 103. sorában, kihagyva
+2025-08-24 13:42:55,879 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 104. sorában, kihagyva
+2025-08-24 13:42:55,879 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 105. sorában, kihagyva
+2025-08-24 13:42:55,879 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 106. sorában, kihagyva
+2025-08-24 13:42:55,880 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 107. sorában, kihagyva
+2025-08-24 13:42:55,880 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 108. sorában, kihagyva
+2025-08-24 13:42:55,880 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 109. sorában, kihagyva
+2025-08-24 13:42:55,880 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 110. sorában, kihagyva
+2025-08-24 13:42:55,881 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 111. sorában, kihagyva
+2025-08-24 13:42:55,881 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 112. sorában, kihagyva
+2025-08-24 13:42:55,881 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 113. sorában, kihagyva
+2025-08-24 13:42:55,881 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 114. sorában, kihagyva
+2025-08-24 13:42:55,881 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 115. sorában, kihagyva
+2025-08-24 13:42:55,881 [INFO] [summary] 2025-08-24 13:42:55,842 [INFO]     \u2794 Hiányzó adat a januar sheet 116. sorában, kihagyva
+2025-08-24 13:42:55,883 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 117. sorában, kihagyva
+2025-08-24 13:42:55,885 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 118. sorában, kihagyva
+2025-08-24 13:42:55,885 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 119. sorában, kihagyva
+2025-08-24 13:42:55,886 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 120. sorában, kihagyva
+2025-08-24 13:42:55,886 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 121. sorában, kihagyva
+2025-08-24 13:42:55,886 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 122. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 123. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 124. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 125. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 126. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 127. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 128. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 129. sorában, kihagyva
+2025-08-24 13:42:55,887 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 130. sorában, kihagyva
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,843 [INFO]     \u2794 Hiányzó adat a januar sheet 131. sorában, kihagyva
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO] \u2705 Összesítés elkészült, elmentve ide: timesheet_summary_januar_2025_08_24.xlsx
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO] \U0001f4ca Run summary:
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO]    \u2714 1 files processed
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO]    \u26a0 0 files skipped (no target month)
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO]    \U0001f4c4 1 sheets processed
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO]    \U0001f4a4 13 sheets skipped
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO]    \u274c 0 errors
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO]    \u23f1 Duration: 0.4s
+2025-08-24 13:42:55,888 [INFO] [summary] 2025-08-24 13:42:55,860 [INFO] \u2705 timesheet_summary finished
+2025-08-24 13:46:23,889 [INFO] [pairs] Parancs: ['C:\\Users\\palyi\\OneDrive\\Desktop\\bullshitBundle\\fater_szarja\\venv\\Scripts\\python.exe', 'validate_pairs.py', 'januar']
+2025-08-24 13:46:24,865 [INFO] [pairs] 2025-08-24 13:46:24,865 [INFO] validate_pairs started
+2025-08-24 13:46:24,866 [INFO] [pairs] 2025-08-24 13:46:24,866 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\validate_pairs_20250824_134624.log
+2025-08-24 13:46:24,867 [INFO] [pairs] 2025-08-24 13:46:24,866 [INFO] Hónap paraméterb\u0151l: januar
+2025-08-24 13:46:24,867 [INFO] [pairs] 2025-08-24 13:46:24,867 [INFO] TS kódok beolvasása: Ecovis Compliance Solution számlázási adatok_2025.xlsx / TS kódok
+2025-08-24 13:46:24,916 [INFO] [pairs] 2025-08-24 13:46:24,915 [INFO] Engedélyezett párok betöltve: 49 ügyfélkód, összesen ~233 sor
+2025-08-24 13:46:24,917 [INFO] [pairs] 2025-08-24 13:46:24,916 [INFO] Feldolgozás: TS GP.xlsx
+2025-08-24 13:46:24,945 [INFO] [pairs] 2025-08-24 13:46:24,941 [INFO]   Sheet: januar
+2025-08-24 13:46:24,955 [INFO] [pairs] 2025-08-24 13:46:24,955 [INFO] Hibás sorok a fájlban: 128
+2025-08-24 13:46:25,051 [INFO] [pairs] 2025-08-24 13:46:25,051 [INFO] Kész a formázott hibalista: invalid_parok_januar_20250824_1346.xlsx
+2025-08-24 13:46:25,052 [INFO] [pairs] 2025-08-24 13:46:25,051 [INFO] Run summary:
+2025-08-24 13:46:25,053 [INFO] [pairs] 2025-08-24 13:46:25,052 [INFO]    1 files processed
+2025-08-24 13:46:25,053 [INFO] [pairs] 2025-08-24 13:46:25,052 [INFO]    0 files skipped
+2025-08-24 13:46:25,053 [INFO] [pairs] 2025-08-24 13:46:25,052 [INFO]    0 errors
+2025-08-24 13:46:25,055 [INFO] [pairs] 2025-08-24 13:46:25,052 [INFO]    Hibás sorok összesen: 128
+2025-08-24 13:46:25,055 [INFO] [pairs] 2025-08-24 13:46:25,052 [INFO]    Duration: 0.2s
+2025-08-24 13:46:25,055 [INFO] [pairs] 2025-08-24 13:46:25,052 [INFO] validate_pairs finished
+2025-08-24 13:46:25,055 [INFO] [pairs] Kész a formázott hibalista: invalid_parok_januar_20250824_1346.xlsx
+2025-08-24 13:46:46,968 [INFO] 👋 Kilépés a GUI-ból
+2025-08-24 13:46:47,002 [INFO] 🔴 mainloop leállt

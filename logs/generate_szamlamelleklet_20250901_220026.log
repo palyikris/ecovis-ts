@@ -1,0 +1,14 @@
+2025-09-01 22:00:26,611 [INFO] generate_szamlamelleklet started
+2025-09-01 22:00:26,612 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\generate_szamlamelleklet_20250901_220026.log
+2025-09-01 22:00:26,612 [INFO] Hónap: januar
+2025-09-01 22:00:26,649 [INFO] Cégadatok beolvasva: 49 ügyfélkód
+2025-09-01 22:00:26,650 [INFO] Feldolgozás: TS GP.xlsx
+2025-09-01 22:00:26,673 [INFO]   Sheet: januar
+2025-09-01 22:00:26,682 [INFO]     125 hiányos sor kihagyva
+2025-09-01 22:00:27,966 [INFO] Kész: szamlamelleklet_januar.xlsx
+2025-09-01 22:00:27,971 [INFO] Run summary:
+2025-09-01 22:00:27,971 [INFO]    1 files processed
+2025-09-01 22:00:27,971 [INFO]    1 sheets processed
+2025-09-01 22:00:27,971 [INFO]    0 files skipped
+2025-09-01 22:00:27,971 [INFO]    0 errors
+2025-09-01 22:00:27,972 [INFO]    Duration: 1.4s

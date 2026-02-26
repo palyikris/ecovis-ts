@@ -1,0 +1,22 @@
+2026-01-15 10:08:40,176 [INFO] validate_pairs started
+2026-01-15 10:08:40,176 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\validate_pairs_20260115_100840.log
+2026-01-15 10:08:40,176 [INFO] Hónap paraméterből: januar
+2026-01-15 10:08:40,176 [INFO] TS kódok beolvasása: Ecovis Compliance Solution számlázási adatok_2025.xlsx / TS kódok
+2026-01-15 10:08:40,207 [INFO] Engedélyezett párok betöltve: 56 ügyfélkód, összesen ~231 sor
+2026-01-15 10:08:40,207 [INFO] Feldolgozás: TS BK.xlsx
+2026-01-15 10:08:40,220 [INFO]   Sheet: januar
+2026-01-15 10:08:40,243 [ERROR] Végzetes hiba futás közben: cannot access local variable 'kod_norm' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\validate_pairs.py", line 433, in main
+    rows = validate_file(path, selected_month, allowed)
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\validate_pairs.py", line 153, in validate_file
+    if kod_norm not in active_clients:
+       ^^^^^^^^
+UnboundLocalError: cannot access local variable 'kod_norm' where it is not associated with a value
+2026-01-15 10:08:40,244 [INFO] Run summary:
+2026-01-15 10:08:40,244 [INFO]    0 files processed
+2026-01-15 10:08:40,244 [INFO]    0 files skipped
+2026-01-15 10:08:40,244 [INFO]    1 errors
+2026-01-15 10:08:40,244 [INFO]    Hibás sorok összesen: 0
+2026-01-15 10:08:40,244 [INFO]    Duration: 0.1s
+2026-01-15 10:08:40,244 [INFO] validate_pairs finished

@@ -1,0 +1,35 @@
+2025-08-24 13:35:33,854 [INFO] ▶ GUI main started
+2025-08-24 13:35:33,855 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\gui_main_20250824_133533.log
+2025-08-24 13:35:33,929 [INFO] 🎨 GUI inicializálva (téma: minty, állapot: zoomed)
+2025-08-24 13:35:34,592 [INFO] 🟢 mainloop indul
+2025-08-24 13:35:41,380 [DEBUG] 🛠 DEBUG mód bekapcsolva
+2025-08-24 13:35:43,330 [INFO] ℹ️ DEBUG mód kikapcsolva
+2025-08-24 13:35:44,577 [INFO] 📂 Log mappa megnyitása: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs
+2025-08-24 13:35:51,871 [INFO] 🔄 Legördülők frissítése – indítás
+2025-08-24 13:35:51,876 [INFO] [dropdown] Parancs: ['C:\\Users\\palyi\\OneDrive\\Desktop\\bullshitBundle\\fater_szarja\\venv\\Scripts\\python.exe', 'update_dropdowns.py']
+2025-08-24 13:35:52,881 [INFO] [dropdown] 2025-08-24 13:35:52,880 [INFO] \u25b6 update_dropdowns started
+2025-08-24 13:35:52,884 [INFO] [dropdown] 2025-08-24 13:35:52,882 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\update_dropdowns_20250824_133552.log
+2025-08-24 13:35:52,885 [INFO] [dropdown] 2025-08-24 13:35:52,882 [INFO] Csak ezek a hónapok frissülnek: augusztus, szeptember, oktober, november, december
+2025-08-24 13:35:53,263 [INFO] [dropdown] 2025-08-24 13:35:53,263 [INFO] Loaded TS kódok: 49 ügyfélkód, 28 projekt
+2025-08-24 13:35:53,264 [INFO] [dropdown] 2025-08-24 13:35:53,263 [INFO] \U0001f527 Feldolgozás: TS GP.xlsx
+2025-08-24 13:35:56,170 [INFO] [dropdown] 2025-08-24 13:35:56,169 [INFO]   \u2794 Sheet: augusztus
+2025-08-24 13:36:01,484 [INFO] [dropdown] 2025-08-24 13:36:01,484 [INFO]   \u2794 Sheet: szeptember
+2025-08-24 13:36:04,581 [INFO] [dropdown] 2025-08-24 13:36:04,581 [INFO]   \u2794 Sheet: oktober
+2025-08-24 13:36:07,149 [INFO] [dropdown] 2025-08-24 13:36:07,148 [INFO]   \u2794 Sheet: november
+2025-08-24 13:36:09,219 [DEBUG] 🛠 DEBUG mód bekapcsolva
+2025-08-24 13:36:09,899 [INFO] [dropdown] 2025-08-24 13:36:09,898 [INFO]   \u2794 Sheet: december
+2025-08-24 13:36:12,814 [INFO] [dropdown] 2025-08-24 13:36:12,813 [INFO] \u2705 Kész: TS GP.xlsx
+2025-08-24 13:36:12,814 [INFO] [dropdown] 2025-08-24 13:36:12,814 [INFO] \U0001f4ca Run summary:
+2025-08-24 13:36:12,814 [INFO] [dropdown] 2025-08-24 13:36:12,814 [INFO]    \u2714 1 files processed
+2025-08-24 13:36:12,815 [INFO] [dropdown] 2025-08-24 13:36:12,814 [INFO]    \u26a0 0 skipped
+2025-08-24 13:36:12,815 [INFO] [dropdown] 2025-08-24 13:36:12,814 [INFO]    \u274c 0 errors
+2025-08-24 13:36:12,816 [INFO] [dropdown] 2025-08-24 13:36:12,814 [INFO]    \u23f1 Duration: 19.6s
+2025-08-24 13:36:12,816 [INFO] [dropdown] 2025-08-24 13:36:12,814 [INFO] \u2705 update_dropdowns finished
+2025-08-24 13:36:13,626 [INFO] ✅ Legördülők frissítése sikeres
+2025-08-24 13:36:13,628 [INFO] 🔚 Legördülők frissítése – vége
+2025-08-24 13:36:16,118 [INFO] ℹ️ DEBUG mód kikapcsolva
+2025-08-24 13:36:49,884 [INFO] 📂 Log mappa megnyitása: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs
+2025-08-24 13:38:42,327 [DEBUG] 🛠 DEBUG mód bekapcsolva
+2025-08-24 13:38:48,665 [INFO] ℹ️ DEBUG mód kikapcsolva
+2025-08-24 13:42:09,553 [INFO] 👋 Kilépés a GUI-ból
+2025-08-24 13:42:09,610 [INFO] 🔴 mainloop leállt

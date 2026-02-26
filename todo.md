@@ -1,0 +1,1 @@
+nyelv megcsinalasa

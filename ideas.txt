@@ -1,0 +1,54 @@
+💡 Használhatósági fejlesztések
+
+Automatikus hónap felismerés és ajánlás
+– A program induláskor automatikusan kiválasztaná az aktuális hónapot a legördülőből.
+– Ha új hónapba lépünk, jelezheti, hogy frissítsük a dropdownokat.
+
+Batch futtatás (minden funkció egyszerre)
+– Egy „🚀 Teljes futtatás” gomb, ami sorban lefuttatja: dropdown frissítés → összesítés → párellenőrzés → számlamelléklet.
+– Így egy kattintással megvan az egész folyamat.
+
+Hibák összegyűjtése GUI-ban
+– A validate_pairs.py által generált hibák ne csak Excelben jelenjenek meg, hanem röviden a GUI-ban is (pl. „⚠ 12 hiba található, részletek az Excelben”).
+
+Kimeneti fájlokra közvetlen link
+– Amikor lefut egy folyamat, a státusz alatt legyen egy „📂 Megnyitás” gomb, ami közvetlenül megnyitja az elkészült Excel fájlt.
+
+Időtartam kijelzés
+– A státuszsorban megjelenhet, mennyi ideig tartott a folyamat (pl. „✅ Összesítés kész (januar) — 12.3s”).
+
+🎨 Megjelenési fejlesztések
+
+Színes státusz üzenetek ikonokkal
+– Most már van ✅/❌, de lehetne egységes színes sáv a státusznak (zöld háttér siker, piros hiba, sárga figyelmeztetés).
+
+Jobb progress bar
+– Ne csak indeterminate legyen (forgó csík), hanem mutassa a feldolgozott fájlok számát (pl. 3/12 kész).
+– Ehhez a szkriptekből kellene visszajelzést küldeni (pl. stdout print → GUI feldolgozza).
+
+Dashboard jelleg
+– Nyitólapon összegző dobozok:
+
+📂 Hány TS fájl található
+
+📊 Legutóbbi összesítés dátuma
+
+🧾 Legutóbbi számlamelléklet neve
+
+⚠ Hány hiba van a legutóbbi párellenőrzésben
+
+Vállalati branding
+– A GUI fejlécébe betenni az ecovis_logo.png-t, így professzionálisabb.
+
+🔧 Technikai kényelmi funkciók
+
+Log megnyitás gomb
+– Egy külön „📜 Logok megnyitása” gomb, ami a logs mappát nyitja meg.
+– Ha hiba van, a státuszsorban rögtön link a konkrét logfájlhoz.
+
+Beállítások ablak
+– GUI-n belül állítható legyen a mappa helye (FOLDER_PATH), vagy az Ecovis fájl neve.
+– Így nem kell kódban átírni.
+
+Automatikus backup
+– Mielőtt bármit felülírna, a régi kimeneteket mentse egy backup/ mappába dátumbélyeggel.

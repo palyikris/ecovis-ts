@@ -1,0 +1,68 @@
+2025-09-04 00:55:01,387 [INFO] generate_szamlamelleklet started
+2025-09-04 00:55:01,387 [INFO] Log file: C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\logs\generate_szamlamelleklet_20250904_005501.log
+2025-09-04 00:55:01,387 [INFO] Hónap: szeptember
+2025-09-04 00:55:01,407 [INFO] Feldolgozás: TS GP.xlsx
+2025-09-04 00:55:01,423 [ERROR] Hiba a sheet olvasásakor (TS GP.xlsx/szeptember): Usecols do not match columns, columns expected but not found: ['Projekt neve', 'Ügyfélkód'] (sheet: szeptember)
+Traceback (most recent call last):
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 607, in _handle_usecols
+    col_indices.append(usecols_key.index(col))
+                       ~~~~~~~~~~~~~~~~~^^^^^
+ValueError: 'Projekt neve' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\generate_szamlamelleklet.py", line 214, in generate_szamlamelleklet
+    df = pd.read_excel(
+        xls,
+    ...<2 lines>...
+        nrows=MAX_ROWS_PER_SHEET,
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 508, in read_excel
+    data = io.parse(
+        sheet_name=sheet_name,
+    ...<21 lines>...
+        dtype_backend=dtype_backend,
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1616, in parse
+    return self._reader.parse(
+           ~~~~~~~~~~~~~~~~~~^
+        sheet_name=sheet_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<17 lines>...
+        **kwds,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 916, in parse
+    raise err
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\excel\_base.py", line 878, in parse
+    parser = TextParser(
+        data,
+    ...<20 lines>...
+        **kwds,
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 2053, in TextParser
+    return TextFileReader(*args, **kwds)
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 133, in __init__
+    ) = self._infer_columns()
+        ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 542, in _infer_columns
+    columns = self._handle_usecols(
+        columns, columns[0], num_original_columns
+    )
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\python_parser.py", line 609, in _handle_usecols
+    self._validate_usecols_names(self.usecols, usecols_key)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\palyi\OneDrive\Desktop\bullshitBundle\fater_szarja\venv\Lib\site-packages\pandas\io\parsers\base_parser.py", line 988, in _validate_usecols_names
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Usecols do not match columns, columns expected but not found: ['Projekt neve', 'Ügyfélkód'] (sheet: szeptember)
+2025-09-04 00:55:01,583 [INFO] Kész: szamlamelleklet_szeptember.xlsx
