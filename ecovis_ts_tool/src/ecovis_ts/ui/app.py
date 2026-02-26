@@ -2,7 +2,7 @@ import threading
 import logging
 import queue
 import ttkbootstrap as tb
-from ttkbootstrap.constants import *
+from ttkbootstrap.constants import PRIMARY, BOTH
 
 from ..config import SETTINGS
 from ..utils.logging import UIHandler
@@ -26,7 +26,7 @@ class EcovisApp(tb.Window):
         self._init_logging()
 
         # UI Components
-        self.notebook = tb.Notebook(self, bootstyle=PRIMARY)
+        self.notebook = tb.Notebook(self)
         self.notebook.pack(fill=BOTH, expand=True)
 
         self.dashboard = DashboardFrame(self.notebook, self.execute_task)
@@ -55,6 +55,10 @@ class EcovisApp(tb.Window):
                     sync_dropdown_lists()
                 elif task_type == "validate":
                     validate_client_project_pairs(*args)
+                elif task_type == "invoice":
+                    from ..core.invoicing import generate_invoice_annex
+
+                    generate_invoice_annex(*args)
 
                 # Update UI stats on completion
                 self.after(0, self.dashboard.update)
